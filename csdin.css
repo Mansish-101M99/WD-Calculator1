@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Montserrat:wght@300&family=Roboto:ital@1&family=Ubuntu:ital,wght@1,500&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    /* width: 100%; */
+    top: 39px;
+    right: 13px;
+    background-color: rgba(211, 226, 118, 0.646);
+}
+
+.calc, .numbun{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+input{
+    /* flex-basis: 30%; */
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+.screen{
+    font-size: 80px;
+    color: white;
+    background-color: blueviolet;
+    box-sizing: border-box;
+    resize: vertical;
+    position: relative;
+    margin: 6px;
+    padding: 4px;
+    /* width: 70%; */
+    /* width: 40%; */
+    /* Below 3 lines limit the input text overflow */
+    width: 400px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border: 1px solid black;
+    border-radius: 4px;
+    color: bisque;
+    box-shadow: 2px 2px 1px rgba(67, 245, 162, 0.966);
+}
+
+.clear{
+    font-size: 80px;
+    color: wheat;
+    background-color: rgba(62, 62, 221, 0.816);
+    margin: 6px;
+    padding: 4px;
+    /* width: 20%; */
+}
+
+button{
+    font-family:'Ubuntu', sans-serif;
+    flex-basis: 25%;
+    font-size: 40px;
+    border-radius: 4px;
+    padding: 4px;
+    box-shadow: 2px 2px 1px rgba(55, 85, 255, 0.87);
+}
+
+button:hover{
+    color: rgb(8, 65, 59);
+    background-color: rgba(250, 190, 231, 0.732);
+}
+
+button:active{
+    color: rgba(117, 209, 254, 0.747);
+    background-color: rgb(89, 52, 77);
+}
